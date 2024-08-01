@@ -1,0 +1,133 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 75px;
+    background-color: #03060d;
+    border-bottom: 1px solid #0a1224;
+}
+
+.header .contentHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1000px;
+    width: 100%;
+}
+
+.header .contentHeader .iconMenu {
+    display: none;
+    font-size: 30px;
+    color: #Fff;
+}
+
+.header .contentHeader .contentLogin {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header .contentHeader .contentLogin a {
+    font-size: 13px;
+    color: #d3d3d3;
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+.header .contentHeader .contentLogin a:hover {
+    color: #fff;
+}
+
+.header .contentHeader .contentLogin .containerUser {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 15px;
+}
+
+.header .contentHeader .contentLogin .containerUser .textLogout {
+    display: none;
+    transition: 0.3s;
+    margin-bottom: 0;
+}
+
+.header .contentHeader .containerUser:hover .textNameUser {
+    display: none;
+    transition: 0.3s;
+    margin-bottom: 0px;
+}
+
+.header .contentHeader .containerUser button:hover {
+    background-color: #d44c4c;
+}
+
+.header .contentHeader .containerUser:hover .textLogout {
+    display: inline;
+    transition: 0.3s;
+}
+
+.header .contentHeader h1 {
+    color: #Fff;
+    font-size: 22px;
+    cursor: pointer;
+    margin-bottom: 0px;
+}
+
+.header .contentHeader h1 span {
+    color: #0089f9;
+}
+
+.header .contentHeader button {
+    padding: 7px 8px;
+    background-color: #0089f9;
+    border-radius: 12px;
+    color: #Fff;
+    border: none;
+    cursor: pointer;
+    width: 100px;
+}
+
+.header .contentHeader .contentLogout {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header .contentHeader .contentLogout a {
+    font-size: 13px;
+    color: #d3d3d3;
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+.header .contentHeader .contentLogout a:hover {
+    color: #fff;
+}
+
+.custom-close-btn {
+    filter: invert(1);
+    opacity: 1;
+}
+
+.custom-close-btn:hover {
+    filter: invert(1);
+    opacity: 0.75;
+}
+
+@media screen and (max-width: 1000px) {
+    .header .contentHeader {
+        width: 90%;
+    }
+
+    .header .contentHeader .contentLogin {
+        display: none;
+    }
+
+    .header .contentHeader .contentLogout {
+        display: none;
+    }
+
+    .header .contentHeader .iconMenu {
+        display: flex;
+    }
+}
