@@ -3,7 +3,7 @@
 # Ajuda para os estudantes!
 
 ## Tecnologias
-- Next.js | Typescript | CSS | Bootstrap
+- Next.js | Typescript | CSS | Bootstrap | Firebase
 
 ## Documentação
 ### Como rodar o aplicativo
